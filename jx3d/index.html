@@ -344,8 +344,8 @@ Promise.all([
   placeCamera();
   setTimeout(() => { camera.aspect = vpW()/vpH(); camera.updateProjectionMatrix(); placeCamera(); }, 500);
   // 锁定俯视 45°：只允许绕垂直线旋转 + 缩放，不能翻转
-  controls.minPolarAngle = Math.PI / 4;
-  controls.maxPolarAngle = Math.PI / 4;
+  controls.minPolarAngle = Math.PI / 6;   // 仰角 60°
+  controls.maxPolarAngle = Math.PI / 3;   // 仰角 30°
   controls.enablePan = false;
   controls.minDistance = 260;
   controls.maxDistance = 2200;
@@ -376,9 +376,9 @@ const BB = new THREE.Box3();
   const AZ = Math.PI * 62 / 180, EL = Math.PI / 4;
   // 平移范围限定在小区范围内
   window.PAN = {
-    minX: BC.x - BS.x/2 - 20, maxX: BC.x + BS.x/2 + 20,
-    minZ: BC.z - BS.z/2 - 20, maxZ: BC.z + BS.z/2 + 20,
-    minY: BC.y - 40,         maxY: BC.y + 40
+    minX: BC.x - 100, maxX: BC.x + 100,
+    minZ: BC.z - 100, maxZ: BC.z + 100,
+    minY: BC.y - 100, maxY: BC.y + 100
   };
   const isMobileLike = innerWidth <= 900 || /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 0);
   controls.enablePan = isMobileLike;
