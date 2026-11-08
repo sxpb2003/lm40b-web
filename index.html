@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#dc2626">
+    <title>HICC 江峡三路项目实测实量</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" href="icons/icon-192.png">
+</head>
+<body>
+    <div id="app">
+        <!-- 首页 -->
+        <div id="home-page" class="page active">
+            <div class="header">
+                <h1>HICC 江峡三路项目实测实量</h1>
+                <p id="status-text">准备中…</p>
+            </div>
+
+            <div class="card">
+                <div id="location-top">未选择部位</div>
+                <div id="location-bottom">请先选择测量维度并进入任务</div>
+            </div>
+
+            <div class="dim-row">
+                <span>本次维度：</span>
+                <button class="dim-btn" data-dim="kjjs">开间进深</button>
+                <button class="dim-btn" data-dim="jg">顶板极差</button>
+            </div>
+
+            <div class="reading" id="reading">—</div>
+            <div class="caption" id="caption">按测距仪测量键开始</div>
+
+            <button id="btn-connect" class="btn btn-secondary">连接测距仪</button>
+            <button id="btn-select-room" class="btn btn-primary">选择房间</button>
+            <button id="btn-settings" class="btn btn-secondary">数据库设置</button>
+
+            <div id="count-view">当前房间 0 条</div>
+        </div>
+
+        <!-- 选择房间页面 -->
+        <div id="select-page" class="page">
+            <div class="page-header">
+                <button class="btn-back" id="btn-back-select">← 返回</button>
+                <h2 id="select-title">选择楼栋</h2>
+            </div>
+            <div class="stats" id="select-stats"></div>
+            <div class="list" id="select-list"></div>
+        </div>
+
+        <!-- 测量页面 -->
+        <div id="measure-page" class="page">
+            <button class="btn-back" id="btn-back-measure">← 返回首页</button>
+            <div class="measure-hu" id="measure-hu"></div>
+            <div class="measure-room" id="measure-room"></div>
+            <div class="measure-list" id="measure-list"></div>
+            <div class="measure-hint">按测距仪测量键测量当前项</div>
+        </div>
+
+        <!-- 设置页面 -->
+        <div id="settings-page" class="page">
+            <div class="page-header">
+                <button class="btn-back" id="btn-back-settings">← 返回</button>
+                <h2>数据库设置</h2>
+            </div>
+            <div class="form-group">
+                <label>仓库 owner/repo</label>
+                <input type="text" id="setting-repo" value="sxpb2003/lm40b-measurements">
+            </div>
+            <div class="form-group">
+                <label>任务清单路径</label>
+                <input type="text" id="setting-task-path" value="task_list.json">
+            </div>
+            <div class="form-group">
+                <label>进度文件路径</label>
+                <input type="text" id="setting-progress-path" value="progress.json">
+            </div>
+            <div class="form-group">
+                <label>分支</label>
+                <input type="text" id="setting-branch" value="main">
+            </div>
+            <div class="form-group">
+                <label>GitHub Token</label>
+                <input type="password" id="setting-token" value="">
+            </div>
+            <button id="btn-save-settings" class="btn btn-primary">保存设置</button>
+            <button id="btn-sync-now" class="btn btn-secondary">立即同步</button>
+            <div id="settings-msg"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

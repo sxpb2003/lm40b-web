@@ -1,0 +1,53 @@
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 01285534c854b738a05b5ff055c7414316220f4a        
+remote:            path: app.js:12        
+remote:          - commit: 01285534c854b738a05b5ff055c7414316220f4a        
+remote:            path: index.html:86        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/sxpb2003/lm40b-web/security/secret-scanning/unblock-secret/3Lo9xRqnbgaDpIu9iXtGfPQOXuD        
+remote:             
+remote: 
+remote: 
+To https://github.com/sxpb2003/lm40b-web.git
+ ! [remote rejected] main -> main (error: GH013: Repository rule violations found for refs/heads/main.
+
+- GITHUB PUSH PROTECTION
+  —————————————————————————————————————————
+    Resolve the following violations before pushing again
+
+    - Push cannot contain secrets
+
+    
+     (?) Learn how to resolve a blocked push
+     https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+    
+    
+      —— GitHub Personal Access Token ——————————————————————
+       locations:
+         - commit: 01285534c854b738a05b5ff055c7414316220f4a
+           path: app.js:12
+         - commit: 01285534c854b738a05b5ff055c7414316220f4a
+           path: index.html:86
+    
+       (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+       https://github.com/sxpb2003/lm40b-web/security/secret-scanning/unblock-secret/3Lo9xRqnbgaDpIu9iXtGfPQOXuD
+    
+
+
+)
+error: failed to push some refs to 'https://github.com/sxpb2003/lm40b-web.git'

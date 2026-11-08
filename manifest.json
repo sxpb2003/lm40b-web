@@ -1,0 +1,22 @@
+{
+  "name": "HICC 江峡三路项目实测实量",
+  "short_name": "实测实量",
+  "description": "HICC 江峡三路项目实测实量 PWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#dc2626",
+  "theme_color": "#dc2626",
+  "scope": ".",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
