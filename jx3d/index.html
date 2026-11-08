@@ -74,7 +74,7 @@ const swEl = document.getElementById('sw');
 const MODE_NAME = { nei:'内墙抹灰', wai:'外墙抹灰', rooffs:'屋面防水', roofbh:'屋面防水保护层', roofgw:'屋面挂瓦', orig:'原始外观' };
 const MODE_COLORS = {
   nei:  ['#1857c9', '#8ede6a', '#ffffff'],
-  wai:  ['#e06600', '#f2c200', '#ffffff'],
+  wai:  ['#e01b1b', '#f2c200', '#ffffff'],
   rooffs:['#6b4f2a', '#c9a227', '#ffffff'],
   roofbh:['#6b4f2a', '#c9a227', '#ffffff'],
   roofgw:['#6b4f2a']
@@ -86,6 +86,79 @@ function updateHint(){
 }
 updateHint();
 addEventListener('resize', updateHint);
+function stripDarkFaces(mesh, keepBelowY){
+  const mat = mesh.material; if (!mat || !mat.color) return 0;
+  const sum = mat.color.r + mat.color.g + mat.color.b;
+  if (sum > 0.5) return 0;
+  const g = mesh.geometry; const pos = g.attributes.position;
+  if (!pos) return 0;
+  let idxArr;
+  if (g.index) idxArr = g.index.array;
+  else { const n = pos.count; idxArr = new Uint32Array(n); for (let i = 0; i < n; i++) idxArr[i] = i; }
+  const keep = []; let removed = 0;
+  for (let t = 0; t < idxArr.length; t += 3){
+    const a = idxArr[t], b = idxArr[t+1], c = idxArr[t+2];
+    const ax = pos.getX(a), ay = pos.getY(a), az = pos.getZ(a);
+    const bx = pos.getX(b), by = pos.getY(b), bz = pos.getZ(b);
+    const cx = pos.getX(c), cy = pos.getY(c), cz = pos.getZ(c);
+    const ux = bx-ax, uy = by-ay, uz = bz-az;
+    const vx = cx-ax, vy = cy-ay, vz = cz-az;
+    const nx = uy*vz-uz*vy, ny = uz*vx-ux*vz, nz = ux*vy-uy*vx;
+    const area = 0.5*Math.sqrt(nx*nx+ny*ny+nz*nz);
+    const maxY = Math.max(ay, by, cy);
+    if (area > 6 && maxY > keepBelowY){ removed++; continue; }
+    keep.push(a, b, c);
+  }
+  if (removed && keep.length){ g.setIndex(keep); g.computeVertexNormals(); }
+  return removed;
+}
+function stripAboveRoof(mesh, minY){
+  const g = mesh.geometry, pos = g && g.attributes && g.attributes.position;
+  if (!pos) return 0;
+  let idxArr;
+  if (g.index) idxArr = g.index.array;
+  else { const n = pos.count; idxArr = new Uint32Array(n); for (let i = 0; i < n; i++) idxArr[i] = i; }
+  const keep = []; let removed = 0;
+  for (let t = 0; t < idxArr.length; t += 3){
+    const a = idxArr[t], b = idxArr[t+1], c = idxArr[t+2];
+    const ya = pos.getY(a), yb = pos.getY(b), yc = pos.getY(c);
+    if (ya > minY && yb > minY && yc > minY){
+      const ax = pos.getX(a), az = pos.getZ(a), bx = pos.getX(b), bz = pos.getZ(b), cx = pos.getX(c), cz = pos.getZ(c);
+      const ux = bx-ax, uy = yb-ya, uz = bz-az, vx = cx-ax, vy = yc-ya, vz = cz-az;
+      const nx = uy*vz-uz*vy, ny = uz*vx-ux*vz, nz = ux*vy-uy*vx;
+      const area = 0.5*Math.sqrt(nx*nx+ny*ny+nz*nz);
+      if (area > 0.05){ removed++; continue; }   // 高出屋面的孤立三角形（黑色尖刺）
+    }
+    keep.push(a, b, c);
+  }
+  if (removed && keep.length){ g.setIndex(keep); g.computeVertexNormals(); }
+  return removed;
+}
+function removeNeedles(mesh){
+  const g = mesh.geometry; if (!g || !g.attributes || !g.attributes.position) return 0;
+  const pos = g.attributes.position;
+  let idxArr;
+  if (g.index) idxArr = g.index.array;
+  else { const n = pos.count; idxArr = new Uint32Array(n); for (let i = 0; i < n; i++) idxArr[i] = i; }
+  const triCount = idxArr.length / 3;
+  const keep = [];
+  let removed = 0;
+  const A = new THREE.Vector3(), B = new THREE.Vector3(), C = new THREE.Vector3();
+  for (let t = 0; t < triCount; t++){
+    const ia = idxArr[t*3], ib = idxArr[t*3+1], ic = idxArr[t*3+2];
+    A.fromBufferAttribute(pos, ia); B.fromBufferAttribute(pos, ib); C.fromBufferAttribute(pos, ic);
+    const e1 = A.distanceTo(B), e2 = B.distanceTo(C), e3 = C.distanceTo(A);
+    const mx = Math.max(e1, e2, e3), mn = Math.min(e1, e2, e3);
+    // 细长/退化三角形（压缩后常见的黑色尖刺）
+    if ((mx > 3 && mn < 0.03) || (mx > 1 && mx / Math.max(mn, 1e-6) > 400)){ removed++; continue; }
+    keep.push(ia, ib, ic);
+  }
+  if (removed > 0 && keep.length){
+    g.setIndex(keep);
+    g.computeVertexNormals();
+  }
+  return removed;
+}
 function setHud(mode, loadingText){
   if (!procEl) return;
   if (loadingText){
@@ -158,7 +231,7 @@ const draco = new DRACOLoader(); draco.setDecoderPath('./lib/draco/'); loader.se
 const M = {
   nei_done: new THREE.MeshStandardMaterial({ color: 0x1857c9, roughness: .85 }),
   nei_ing:  new THREE.MeshStandardMaterial({ color: 0x8ede6a, roughness: .85 }),
-  wai_done: new THREE.MeshStandardMaterial({ color: 0xe06600, roughness: .85 }),
+  wai_done: new THREE.MeshStandardMaterial({ color: 0xe01b1b, roughness: .85 }),
   wai_ing:  new THREE.MeshStandardMaterial({ color: 0xf2c200, roughness: .85 }),
   none:     new THREE.MeshStandardMaterial({ color: 0x9e9e9e, roughness: .9 }),
   roof_done: new THREE.MeshStandardMaterial({ color: 0x6b4f2a, roughness: .9 }),
@@ -305,8 +378,18 @@ Promise.all([
     const obj = glb.scene.clone(true);
     obj.applyMatrix4(new THREE.Matrix4().fromArray(info.m));
     scene.add(obj);
+    const box0 = new THREE.Box3().setFromObject(obj);
     const meshes = [];
-    obj.traverse(o => { if (o.isMesh) meshes.push({ mesh: o, orig: o.material }); });
+    const lv = (floorsData[b] || []).slice().sort((p,q)=>p-q);
+    const roofTop = lv.length ? lv[lv.length-1] : box0.max.y;
+    const cutY = roofTop + 0.6;
+    obj.traverse(o => {
+      if (!o.isMesh) return;
+      removeNeedles(o); stripAboveRoof(o, cutY);
+      const mats = Array.isArray(o.material) ? o.material : [o.material];
+      for (const mm of mats){ if (mm){ mm.side = 2; mm.needsUpdate = true; } }   // 双面渲染，避免背面纯黑
+      meshes.push({ mesh: o, orig: o.material });
+    });
     const box = new THREE.Box3().setFromObject(obj);
     buildings.push({ name: b, root: obj, meshes, box });
     const ctr = box.getCenter(new THREE.Vector3());
