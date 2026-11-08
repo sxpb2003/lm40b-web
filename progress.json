@@ -1,0 +1,5502 @@
+{
+  "version": "2026-11-08",
+  "updatedAt": "2026-11-08 11:28:00",
+  "done": [
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.513
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.028
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.72
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.817
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.024
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.659
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.616
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.472
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 3.308
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.539
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.513
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.825
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 3.215
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 2.525
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.556
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.021
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 4.303
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.662
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.616
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.616
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.695
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 6.127
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.717
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.656
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.371
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.562
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.619
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.571
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.605
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.761
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.724
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.558
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.658
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.519
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 3.125
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.014
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 2.999
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.922
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.662
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.673
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.969
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.015
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.008
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 1.707
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.869
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.674
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.181
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.52
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.818
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.369
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.609
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.005
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.71
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.567
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.769
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.769
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 3.22
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.822
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.472
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.517
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.763
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.566
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.566
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.02
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.666
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 1.664
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 2.414
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.96
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 1.272
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.16
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.314
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.018
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.91
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.712
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 6.11
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.669
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.509
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.519
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.543
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.538
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.809
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.771
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 4.311
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 3.136
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.758
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.023
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.806
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.772
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.312
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.169
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.914
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 8.569
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.771
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.567
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.879
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.571
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.916
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.362
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.465
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.773
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.315
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.87
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.025
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.03
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.815
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.412
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.699
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.666
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.999
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.765
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.513
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.623
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.551
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.011
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.775
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.825
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.31
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.362
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.521
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.31
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.664
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.821
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.864
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.674
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.025
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 2.811
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.615
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 3.636
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.616
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.567
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.773
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.157
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 2.822
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.758
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.618
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.61
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.66
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 2.531
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.031
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.017
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.623
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.813
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 4.318
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.018
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.855
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 6.121
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 1.667
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.8
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.513
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.957
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.628
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.762
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.963
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.016
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.713
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.384
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.405
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 3.524
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.315
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.47
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.634
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.675
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.717
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.612
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.755
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.962
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.911
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.873
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.907
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.561
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 4.515
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.817
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.867
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.361
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 6.122
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.772
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.77
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.317
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.616
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.725
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.554
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.308
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.712
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.782
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.777
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.717
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.414
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.725
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.604
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.32
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.118
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.865
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.563
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 4.311
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.721
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.772
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.414
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.621
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.665
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.622
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 3.527
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.365
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.814
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.505
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.575
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.599
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.661
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.772
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.665
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.805
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.365
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.666
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 1.711
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.309
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.772
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.508
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.026
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 3.14
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 2.827
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.01
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.66
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.412
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.676
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.717
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.615
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.917
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.855
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.823
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.718
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.714
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.373
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.542
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.416
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.716
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.766
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.569
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.022
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.177
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 3.521
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.042
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.772
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.328
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.624
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.682
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 6.115
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 4.313
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.964
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.619
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.602
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.815
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.365
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.82
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.717
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.669
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.021
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.703
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.305
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.777
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.303
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.578
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.716
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.624
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.308
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.926
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.609
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.507
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.757
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.719
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.763
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.662
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.656
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.63
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.553
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.867
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.919
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.523
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.869
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.53
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 2.468
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.025
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.515
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.417
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.664
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.77
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.721
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.716
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.6
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.513
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.767
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.769
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.559
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.818
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.534
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.723
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.768
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 4.317
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 3.304
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.535
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.779
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.315
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.011
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.171
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.515
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.917
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.559
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.612
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.758
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.566
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.564
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.96
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 3.222
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.538
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.001
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.81
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.36
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.611
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 3.422
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.762
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.964
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.765
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 1.729
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.519
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.019
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.023
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 1.713
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 8.569
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.411
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 4.518
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 2.417
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.759
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.72
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.718
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.512
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.768
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.039
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.608
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.82
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.668
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.764
+    },
+    {
+      "bldg": "26#",
+      "floor": 2,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 1.618
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.014
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.531
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.772
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.673
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.671
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.756
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.562
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.771
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.632
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.367
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.618
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.175
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.627
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.673
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 2.529
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.515
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.967
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.016
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.763
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 1.507
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.921
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.718
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.312
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.715
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.818
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.51
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.763
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 6.121
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.722
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.562
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.579
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.914
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 4.518
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 6.118
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.019
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 2.453
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.622
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 8.577
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.372
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.513
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.671
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.013
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.025
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.823
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.962
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.011
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.674
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.669
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.522
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.554
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 4.513
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.818
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.723
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.015
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.865
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.776
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.662
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.326
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.012
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.668
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.822
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.965
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.817
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.715
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.032
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.461
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.675
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.013
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.762
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.164
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.017
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.758
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.16
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.512
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.607
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.864
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.029
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.162
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.711
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.497
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.972
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.678
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.826
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.392
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.561
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.669
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间一",
+      "meters": 2.728
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.782
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.771
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.401
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.016
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.612
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.664
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 1.502
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.022
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.672
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.51
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.809
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.815
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.386
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.618
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.46
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.17
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.307
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.577
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.569
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.316
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.864
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.565
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 8.567
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.621
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 8.565
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.022
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.023
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.966
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 6.103
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.657
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.727
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.612
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.777
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.505
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.117
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.019
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.374
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.812
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.921
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.916
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.016
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.006
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.503
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.82
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.617
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 2.513
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.671
+    },
+    {
+      "bldg": "26#",
+      "floor": 2,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 1.632
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.72
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.018
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.559
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.574
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.534
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.864
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.716
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.414
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.466
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.533
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.681
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.668
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.667
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.815
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.018
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.815
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 3.22
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.767
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.866
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.819
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.748
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.312
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.656
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.625
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.299
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.317
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.516
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.82
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.765
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.626
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.552
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.163
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.768
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.161
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.021
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.821
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.017
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.76
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间二",
+      "meters": 3.613
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.452
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.866
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.007
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.764
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.163
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.761
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.403
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.368
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.021
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 2.653
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深一",
+      "meters": 1.674
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.885
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.803
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.871
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.91
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.515
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.716
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深二",
+      "meters": 3.024
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.714
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.02
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 6.135
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.522
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.614
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.175
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.315
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 7.521
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.318
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.029
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.52
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.711
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.613
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 1.511
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.814
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.516
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.372
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 2.535
+    },
+    {
+      "bldg": "26#",
+      "floor": 2,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 1.613
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.773
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.767
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 1.668
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.814
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.528
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.928
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.422
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.705
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.805
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.184
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.163
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.613
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.76
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.974
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.861
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.813
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.018
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.514
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 3.219
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 2.826
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.807
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 3.124
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.776
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 2.812
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.511
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.016
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.767
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.012
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.72
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "开间一",
+      "meters": 2.77
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.773
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.366
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.512
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 4.523
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 4.313
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.605
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.821
+    },
+    {
+      "bldg": "26#",
+      "floor": 6,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.754
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 3.168
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.818
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深一",
+      "meters": 3.524
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "进深一",
+      "meters": 3.02
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.506
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.415
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.612
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.672
+    },
+    {
+      "bldg": "26#",
+      "floor": 2,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 1.617
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 4.326
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.519
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.013
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.97
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 2.983
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.816
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.672
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.967
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 3.528
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.175
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深一",
+      "meters": 3.324
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.311
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 3.81
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卧",
+      "item": "开间一",
+      "meters": 3.613
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.512
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.609
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.164
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 4.523
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室2",
+      "item": "开间二",
+      "meters": 2.773
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 2.533
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.351
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.604
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.721
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深一",
+      "meters": 4.91
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.524
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.516
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.679
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室1",
+      "item": "进深一",
+      "meters": 3.028
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.825
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 1.506
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 2.655
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间一",
+      "meters": 6.958
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.516
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧",
+      "item": "进深一",
+      "meters": 4.308
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.466
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 1.668
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "客厅",
+      "item": "开间一",
+      "meters": 3.819
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深二",
+      "meters": 4.378
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.76
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.165
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.56
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 4.364
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "客厅",
+      "item": "进深一",
+      "meters": 8.585
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.572
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.675
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.617
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "卧室",
+      "item": "进深二",
+      "meters": 3.331
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间二",
+      "meters": 3.513
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 1,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 2.54
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间二",
+      "meters": 1.763
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "客厅餐厅",
+      "item": "进深二",
+      "meters": 4.917
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.561
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "客厅",
+      "item": "开间二",
+      "meters": 3.804
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 4,
+      "room": "主卫生间",
+      "item": "开间一",
+      "meters": 1.613
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "书房",
+      "item": "开间二",
+      "meters": 2.722
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.664
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 2.823
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.525
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "主卫生间",
+      "item": "进深一",
+      "meters": 1.619
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "主卫生间",
+      "item": "进深二",
+      "meters": 1.782
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "进深二",
+      "meters": 1.661
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.521
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.468
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 3,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.017
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.426
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "书房",
+      "item": "进深一",
+      "meters": 3.629
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.571
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 4,
+      "room": "主卧",
+      "item": "进深二",
+      "meters": 3.221
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "进深二",
+      "meters": 3.01
+    },
+    {
+      "bldg": "44#",
+      "floor": 6,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 3.176
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "主卧室",
+      "item": "开间一",
+      "meters": 3.512
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.016
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.165
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "卧室",
+      "item": "开间二",
+      "meters": 2.657
+    },
+    {
+      "bldg": "35#",
+      "floor": 3,
+      "hu": 3,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.511
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 2,
+      "room": "卧室2",
+      "item": "进深二",
+      "meters": 3.01
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 1,
+      "room": "客厅餐厅",
+      "item": "开间二",
+      "meters": 6.97
+    },
+    {
+      "bldg": "35#",
+      "floor": 6,
+      "hu": 1,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 4.522
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.762
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "卧室",
+      "item": "开间一",
+      "meters": 2.672
+    },
+    {
+      "bldg": "31#",
+      "floor": 10,
+      "hu": 1,
+      "room": "卧室1",
+      "item": "开间二",
+      "meters": 2.723
+    },
+    {
+      "bldg": "35#",
+      "floor": 4,
+      "hu": 4,
+      "room": "书房",
+      "item": "开间一",
+      "meters": 2.711
+    },
+    {
+      "bldg": "26#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "进深一",
+      "meters": 3.011
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 2,
+      "room": "主卧室",
+      "item": "进深二",
+      "meters": 7.511
+    },
+    {
+      "bldg": "27#",
+      "floor": 3,
+      "hu": 1,
+      "room": "卫生间",
+      "item": "开间一",
+      "meters": 2.052
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 3,
+      "room": "客厅",
+      "item": "进深二",
+      "meters": 8.572
+    },
+    {
+      "bldg": "35#",
+      "floor": 5,
+      "hu": 1,
+      "room": "厨房",
+      "item": "开间一",
+      "meters": 2.019
+    },
+    {
+      "bldg": "26#",
+      "floor": 4,
+      "hu": 2,
+      "room": "卫生间",
+      "item": "开间二",
+      "meters": 2.503
+    },
+    {
+      "bldg": "26#",
+      "floor": 3,
+      "hu": 2,
+      "room": "厨房",
+      "item": "开间二",
+      "meters": 2.179
+    }
+  ]
+}
