@@ -134,6 +134,32 @@ function stripAboveRoof(mesh, minY){
   if (removed && keep.length){ g.setIndex(keep); g.computeVertexNormals(); }
   return removed;
 }
+function stripGroundSlabs(mesh, maxY){
+  const g = mesh.geometry, pos = g && g.attributes && g.attributes.position;
+  if (!pos) return 0;
+  let idxArr;
+  if (g.index) idxArr = g.index.array;
+  else { const n = pos.count; idxArr = new Uint32Array(n); for (let i = 0; i < n; i++) idxArr[i] = i; }
+  const keep = []; let removed = 0;
+  for (let t = 0; t < idxArr.length; t += 3){
+    const a = idxArr[t], b = idxArr[t+1], c = idxArr[t+2];
+    const ax=pos.getX(a), ay=pos.getY(a), az=pos.getZ(a);
+    const bx=pos.getX(b), by=pos.getY(b), bz=pos.getZ(b);
+    const cx=pos.getX(c), cy=pos.getY(c), cz=pos.getZ(c);
+    const ux=bx-ax, uy=by-ay, uz=bz-az, vx=cx-ax, vy=cy-ay, vz=cz-az;
+    const nx=uy*vz-uz*vy, ny=uz*vx-ux*vz, nz=ux*vy-uy*vx;
+    const nl=Math.sqrt(nx*nx+ny*ny+nz*nz);
+    if (nl > 0){
+      const area = 0.5*nl;
+      const horiz = Math.abs(ny)/nl;
+      const cyy = (ay+by+cy)/3;
+      if (area > 12 && horiz > 0.85 && cyy < maxY){ removed++; continue; }  // 地面大平板（屏幕上呈黑三角）
+    }
+    keep.push(a,b,c);
+  }
+  if (removed && keep.length){ g.setIndex(keep); g.computeVertexNormals(); }
+  return removed;
+}
 function removeNeedles(mesh){
   const g = mesh.geometry; if (!g || !g.attributes || !g.attributes.position) return 0;
   const pos = g.attributes.position;
@@ -380,12 +406,41 @@ Promise.all([
     scene.add(obj);
     const box0 = new THREE.Box3().setFromObject(obj);
     const meshes = [];
+    // 已知“黑三角”位置（世界坐标，来自射线拾取），精确剔除附近三角形
+    const SPIKE_SPOTS = (b === '52') ? [[140.6, 161.3, -150.8]] : ((b === 'S13') ? [[239.5, 163.6, -187.5]] : []);
+    if (SPIKE_SPOTS.length){
+      obj.traverse(o => {
+        if (!o.isMesh) return;
+        const g = o.geometry, pos = g && g.attributes && g.attributes.position;
+        if (!pos) return;
+        let idxArr;
+        if (g.index) idxArr = g.index.array;
+        else { const n = pos.count; idxArr = new Uint32Array(n); for (let i = 0; i < n; i++) idxArr[i] = i; }
+        o.updateWorldMatrix(true, false);
+        const e = o.matrixWorld.elements;
+        const wp = (k) => { const x = pos.getX(k), y = pos.getY(k), z = pos.getZ(k);
+          return [e[0]*x+e[4]*y+e[8]*z+e[12], e[1]*x+e[5]*y+e[9]*z+e[13], e[2]*x+e[6]*y+e[10]*z+e[14]]; };
+        const keep = []; let removed = 0;
+        for (let t = 0; t < idxArr.length; t += 3){
+          const A = wp(idxArr[t]), B = wp(idxArr[t+1]), C = wp(idxArr[t+2]);
+          const cx = (A[0]+B[0]+C[0])/3, cy = (A[1]+B[1]+C[1])/3, cz = (A[2]+B[2]+C[2])/3;
+          let hit = false;
+          for (const s of SPIKE_SPOTS){
+            const d = Math.hypot(cx-s[0], cy-s[1], cz-s[2]);
+            if (d < 9){ hit = true; break; }
+          }
+          if (hit){ removed++; continue; }
+          keep.push(idxArr[t], idxArr[t+1], idxArr[t+2]);
+        }
+        if (removed && keep.length){ g.setIndex(keep); g.computeVertexNormals(); }
+      });
+    }
     const lv = (floorsData[b] || []).slice().sort((p,q)=>p-q);
     const roofTop = lv.length ? lv[lv.length-1] : box0.max.y;
     const cutY = roofTop + 0.6;
     obj.traverse(o => {
       if (!o.isMesh) return;
-      removeNeedles(o); stripAboveRoof(o, cutY);
+      removeNeedles(o);
       const mats = Array.isArray(o.material) ? o.material : [o.material];
       for (const mm of mats){ if (mm){ mm.side = 2; mm.needsUpdate = true; } }   // 双面渲染，避免背面纯黑
       meshes.push({ mesh: o, orig: o.material });
