@@ -31,7 +31,8 @@
         loadFromLocalStorage();
         renderHome();
         loadTasks();
-        registerServiceWorker();
+        // Service worker temporarily disabled to avoid stale cache during development
+        // registerServiceWorker();
     });
 
     function registerServiceWorker() {
