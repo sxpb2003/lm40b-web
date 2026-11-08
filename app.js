@@ -217,9 +217,12 @@
                 setStatus('任务清单已更新');
                 await loadProgress();
                 return;
+            } else {
+                setStatus('任务清单下载返回空');
             }
         } catch (e) {
             console.warn('load tasks remote failed', e);
+            setStatus('任务清单加载失败：' + e.message);
         }
         // 使用本地缓存
         if (taskList.length > 0) {
@@ -227,8 +230,6 @@
             renderHome();
             setStatus('使用本地缓存任务清单');
             await loadProgress();
-        } else {
-            setStatus('任务清单加载失败');
         }
     }
 
