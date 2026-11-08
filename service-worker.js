@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lm40b-web-v1';
+const CACHE_NAME = 'lm40b-web-v2';
 const STATIC_FILES = [
   './',
   './index.html',
@@ -29,8 +29,8 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
-  // GitHub API must always go to network
-  if (url.hostname === 'api.github.com') {
+  // GitHub API and JSON data always go to network
+  if (url.hostname === 'api.github.com' || url.pathname.endsWith('.json')) {
     return;
   }
   event.respondWith(

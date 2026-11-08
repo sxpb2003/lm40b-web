@@ -159,15 +159,20 @@
         return res.json();
     }
 
+    function dataBaseUrl() {
+        const basePath = location.pathname.replace(/\/[^/]*$/, '');
+        return `${location.origin}${basePath}/`;
+    }
+
     async function downloadFile(path) {
-        // public repo: read raw content without token (avoids CORS/auth issues)
+        // read from the same origin (GitHub Pages) so it works even if raw.githubusercontent.com is blocked
         try {
-            const res = await fetch(`https://raw.githubusercontent.com/${settings.repo}/${settings.branch}/${path}`);
-            if (!res.ok) throw new Error(`raw ${res.status}`);
+            const res = await fetch(`${dataBaseUrl()}${path}`);
+            if (!res.ok) throw new Error(`data ${res.status}`);
             const text = await res.text();
             return { content: text, sha: null };
         } catch (e) {
-            console.warn('raw download failed', path, e);
+            console.warn('data download failed', path, e);
             return null;
         }
     }
