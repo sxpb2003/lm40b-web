@@ -5,7 +5,7 @@
     const CHR_FFB2 = '0000ffb2-0000-1000-8000-00805f9b34fb';
 
     const DEFAULT_SETTINGS = {
-        repo: 'sxpb2003/lm40b-measurements',
+        repo: 'sxpb2003/lm40b-web',
         taskPath: 'task_list.json',
         progressPath: 'progress.json',
         branch: 'main',
@@ -143,13 +143,16 @@
     }
 
     // ===== GitHub API =====
+    function githubHeaders() {
+        const h = { 'Accept': 'application/vnd.github+json' };
+        if (settings.token) h['Authorization'] = `token ${settings.token}`;
+        return h;
+    }
+
     async function githubRequest(path, opts = {}) {
         const url = `https://api.github.com/repos/${settings.repo}/contents/${path}?ref=${settings.branch}`;
         const res = await fetch(url, {
-            headers: {
-                'Authorization': `token ${settings.token}`,
-                'Accept': 'application/vnd.github+json'
-            },
+            headers: githubHeaders(),
             ...opts
         });
         if (!res.ok) throw new Error(`GitHub ${res.status}`);
@@ -157,13 +160,25 @@
     }
 
     async function downloadFile(path) {
+        // public repo: read raw content without token (avoids CORS/auth issues)
+        try {
+            const res = await fetch(`https://raw.githubusercontent.com/${settings.repo}/${settings.branch}/${path}`);
+            if (!res.ok) throw new Error(`raw ${res.status}`);
+            const text = await res.text();
+            return { content: text, sha: null };
+        } catch (e) {
+            console.warn('raw download failed', path, e);
+            return null;
+        }
+    }
+
+    async function getSha(path) {
+        if (!settings.token) return null;
         try {
             const data = await githubRequest(path);
-            const content = data.content.replace(/\s/g, '');
-            const decoded = atob(content);
-            return { content: decoded, sha: data.sha };
+            return data.sha || null;
         } catch (e) {
-            console.warn('download failed', path, e);
+            console.warn('getSha failed', path, e);
             return null;
         }
     }
@@ -177,11 +192,7 @@
         if (sha) body.sha = sha;
         const res = await fetch(`https://api.github.com/repos/${settings.repo}/contents/${path}`, {
             method: 'PUT',
-            headers: {
-                'Authorization': `token ${settings.token}`,
-                'Accept': 'application/vnd.github+json',
-                'Content-Type': 'application/json'
-            },
+            headers: Object.assign({}, githubHeaders(), { 'Content-Type': 'application/json' }),
             body: JSON.stringify(body)
         });
         return res.ok;
@@ -261,8 +272,8 @@
                 updatedAt: new Date().toLocaleString('zh-CN'),
                 done: Array.from(doneTasks.values())
             }, null, 2);
-            const remote = await downloadFile(settings.progressPath);
-            const ok = await uploadFile(settings.progressPath, content, '更新测量进度 ' + new Date().toLocaleString('zh-CN'), remote?.sha);
+            const sha = await getSha(settings.progressPath);
+            const ok = await uploadFile(settings.progressPath, content, '更新测量进度 ' + new Date().toLocaleString('zh-CN'), sha);
             if (ok) {
                 syncedKeys = new Set(Array.from(doneTasks.keys()));
                 saveToLocalStorage();
